@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "email": "asif@gmail.com",
+      "password": "$2a$10$uYlsu5XlGfWP8oMV31Lr1uT/zCtkIn.3UvMaQK9gqab6jTrzsBtT.",
+      "name": "Asif Khan",
+      "id": 1
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$uYlsu5XlGfWP8oMV31Lr1uT/zCtkIn.3UvMaQK9gqab6jTrzsBtT.",
+      "name": "Akash Ahmed",
+      "id": 2
+    },
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$uYlsu5XlGfWP8oMV31Lr1uT/zCtkIn.3UvMaQK9gqab6jTrzsBtT.",
+      "name": "Sumit Saha",
+      "id": 3
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$uYlsu5XlGfWP8oMV31Lr1uT/zCtkIn.3UvMaQK9gqab6jTrzsBtT.",
+      "name": "Saad Ahmed",
+      "id": 4
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$uYlsu5XlGfWP8oMV31Lr1uT/zCtkIn.3UvMaQK9gqab6jTrzsBtT.",
+      "name": "Test 1",
+      "id": 5
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "name": "dev",
+      "title": "this is dev team",
+      "color": "red",
+      "author": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 3
+      },
+      "members": [
+        "sumit@learnwithsumit.com",
+        "akash@learnwithsumit.com",
+        "test1@gmail.com",
+        "saad@learnwithsumit.com",
+        "asif@gmail.com"
+      ],
+      "createdAt": "2022-09-27T07:37:01.526Z",
+      "id": 10
+    },
+    {
+      "name": "sdfsd",
+      "title": "fdsfd",
+      "color": "(red}",
+      "author": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 3
+      },
+      "members": ["sumit@learnwithsumit.com"],
+      "createdAt": "2022-09-27T07:37:13.019Z",
+      "id": 11
+    },
+    {
+      "name": "mern",
+      "title": "this is mern stack team",
+      "color": "#db6018",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com", "saad@learnwithsumit.com"],
+      "createdAt": "2022-09-27T10:19:37.252Z",
+      "id": 12
+    },
+    {
+      "name": "mongo db",
+      "title": "this is mongo db team",
+      "color": "#70db18",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com", "sumit@learnwithsumit.com"],
+      "createdAt": "2022-09-27T10:20:10.749Z",
+      "id": 13
+    },
+    {
+      "name": "my team",
+      "title": "this is my personal team",
+      "color": "#b129d6",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com"],
+      "createdAt": "2022-09-27T10:20:58.124Z",
+      "id": 14
+    },
+    {
+      "name": "test 1",
+      "title": "this is test team 1",
+      "color": "#d629ae",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com"],
+      "createdAt": "2022-09-27T10:21:25.628Z",
+      "id": 15
+    },
+    {
+      "name": "hello ",
+      "title": "hello this is bingo pingo ",
+      "color": "#e01926",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com"],
+      "createdAt": "2022-09-27T10:21:56.582Z",
+      "id": 16
+    },
+    {
+      "name": "asif khan",
+      "title": "this is asif's team",
+      "color": "#7231e0",
+      "author": {
+        "email": "asif@gmail.com",
+        "name": "Asif Khan",
+        "id": 1
+      },
+      "members": ["asif@gmail.com"],
+      "createdAt": "2022-09-27T10:22:31.332Z",
+      "id": 17
+    }
+  ],
+  "projects": [
+    {
+      "author": "asif@gmail.com",
+      "team": "mearn-stack",
+      "title": "develop mearn-stack project with rtk quiery",
+      "avatar": "fdfdsf",
+      "stage": "ready",
+      "createAt": "2022-9-24",
+      "id": 1
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "asif",
+      "title": "html",
+      "avatar": "sdfds",
+      "stage": "ready",
+      "createdAt": "2022-09-25T14:52:44.456Z",
+      "id": 2
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "mern",
+      "title": "this is mern stack team",
+      "avatar": "https://media.istockphoto.com/vectors/panda-in-welcoming-gesture-vector-id531507581?k=20&m=531507581&s=612x612&w=0&h=tfI8JVXgRzZDXq9mZBcltma2qE6UllK4q702bSKzljo=",
+      "stage": "blocked",
+      "createdAt": "2022-09-27T10:25:51.997Z",
+      "id": 3
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "dev",
+      "title": "this is dev team",
+      "avatar": "https://thumbs.dreamstime.com/z/young-guy-cartoon-icon-wearing-casual-clothes-over-white-background-colorful-design-vector-illustration-85795171.jpg",
+      "stage": "review",
+      "createdAt": "2022-09-27T10:27:28.781Z",
+      "id": 4
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "mongo db",
+      "title": "this is mongo db team ",
+      "avatar": "https://i.pinimg.com/236x/31/4f/2a/314f2a1f891f259d70d75b603616827a.jpg",
+      "stage": "doing",
+      "createdAt": "2022-09-27T10:28:16.452Z",
+      "id": 5
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "my team",
+      "title": "this is my personal team ",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzvii-aIm3DvLydFYp4coHgdyD3iy57Ssmw&usqp=CAU",
+      "stage": "backlog",
+      "createdAt": "2022-09-27T10:28:56.101Z",
+      "id": 6
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "test 1",
+      "title": "this is test team",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWaY-XE0rA0824KrPTflovYW4COoBldppXcg&usqp=CAU",
+      "stage": "ready",
+      "createdAt": "2022-09-27T10:29:33.349Z",
+      "id": 7
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "hello ",
+      "title": "hello this is bingo bingo ",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwXVEfp0NM_dkGXdF3BPclq3QZLQ-sy2FQDYM_Z2cri_5pahghZmuy785xXk8a-YTIro&usqp=CAU",
+      "stage": "backlog",
+      "createdAt": "2022-09-27T10:30:19.197Z",
+      "id": 8
+    },
+    {
+      "author": "asif@gmail.com",
+      "team": "asif almas",
+      "title": "haha my team guys ",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSABU0oEB5uN-k3Od-bW9UiTHONf9RVTAAg&usqp=CAU",
+      "stage": "done",
+      "createdAt": "2022-09-27T10:30:59.374Z",
+      "id": 9
+    }
+  ]
+}
